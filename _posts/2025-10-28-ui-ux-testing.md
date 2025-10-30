@@ -47,8 +47,9 @@ Memastikan tampilan antarmuka konsisten di seluruh halaman:
 - Branding (logo, warna utama) sesuai panduan desain.
 
 **Contoh Testing:**
+
 | No | Elemen | Pemeriksaan | Hasil Diharapkan |
-|----|---------|-------------|------------------|
+|----|--------|-------------|------------------|
 | 1 | Tombol utama | Warna dan bentuk sama di semua halaman | Konsisten |
 | 2 | Font judul | Menggunakan “Roboto Bold” 18px | Sesuai |
 | 3 | Logo perusahaan | Tampil di header semua halaman | Tampil dengan benar |
@@ -59,8 +60,9 @@ Memastikan tampilan antarmuka konsisten di seluruh halaman:
 Memastikan tampilan UI menyesuaikan dengan berbagai ukuran layar (desktop, tablet, mobile).
 
 **Contoh Testing:**
+
 | No | Perangkat | Pemeriksaan | Hasil Diharapkan |
-|----|------------|-------------|------------------|
+|----|-----------|-------------|------------------|
 | 1 | Smartphone (360px) | Layout tetap rapi | Tidak terpotong |
 | 2 | Tablet (768px) | Gambar dan teks proporsional | Responsif |
 | 3 | Desktop (1920px) | Tampilan penuh tanpa ruang kosong berlebihan | Sesuai |
@@ -71,8 +73,9 @@ Memastikan tampilan UI menyesuaikan dengan berbagai ukuran layar (desktop, table
 UI harus tampil dan berfungsi baik di berbagai **browser dan sistem operasi**.
 
 **Contoh Testing:**
+
 | No | Browser | Versi | Hasil Diharapkan |
-|----|----------|--------|------------------|
+|----|---------|-------|------------------|
 | 1 | Chrome | 120+ | Teks dan tombol normal |
 | 2 | Firefox | 118+ | Tidak ada elemen bergeser |
 | 3 | Safari | 17+ | Layout stabil tanpa bug visual |
@@ -116,7 +119,7 @@ Menilai apakah aplikasi **dapat digunakan oleh semua orang**, termasuk penyandan
 
 **Contoh Testing:**
 | Aspek | Pemeriksaan | Hasil Diharapkan |
-|--------|--------------|------------------|
+|-------|-------------|------------------|
 | Kontras warna | Rasio minimal 4.5:1 | Terpenuhi |
 | Navigasi keyboard | Dapat digunakan tanpa mouse | Berfungsi |
 | Pembaca layar | Elemen memiliki label (alt text, aria-label) | Dikenali screen reader |
@@ -128,7 +131,7 @@ Menilai apakah aplikasi **dapat digunakan oleh semua orang**, termasuk penyandan
 ### 🧭 Metode Pengujian
 
 | Metode | Deskripsi | Kapan Digunakan |
-|---------|-------------|------------------|
+|--------|-----------|-----------------|
 | **Manual Testing** | Pengujian dilakukan langsung oleh tester dengan mencoba fitur aplikasi. | Saat fase awal pengujian atau prototype. |
 | **A/B Testing** | Membandingkan dua versi desain (A dan B) untuk melihat mana yang lebih disukai pengguna. | Saat menentukan desain final. |
 | **Heatmaps** | Melihat area yang paling sering diklik/dilihat pengguna melalui peta panas. | Saat mengevaluasi perilaku pengguna di situs web. |
@@ -138,7 +141,7 @@ Menilai apakah aplikasi **dapat digunakan oleh semua orang**, termasuk penyandan
 ### 🛠️ Tools Populer
 
 | Jenis | Contoh Tools | Kegunaan |
-|--------|----------------|-----------|
+|-------|--------------|----------|
 | **UI Testing** | Selenium, Cypress, BrowserStack | Uji tampilan otomatis di berbagai browser |
 | **UX Testing** | Hotjar, Maze, UsabilityHub | Observasi perilaku dan kepuasan pengguna |
 | **A/B Testing** | Google Optimize, Optimizely | Bandingkan dua versi desain |
@@ -153,7 +156,7 @@ Heuristic Evaluation adalah metode evaluasi UX yang dikembangkan oleh **Jakob Ni
 ### 🔟 Prinsip Usability Jakob Nielsen
 
 | No | Prinsip | Penjelasan Singkat |
-|----|----------|--------------------|
+|----|---------|--------------------|
 | 1 | **Visibility of System Status** | Sistem harus selalu memberi tahu pengguna apa yang sedang terjadi (misal: indikator loading). |
 | 2 | **Match Between System and the Real World** | Gunakan bahasa dan simbol yang familiar bagi pengguna. |
 | 3 | **User Control and Freedom** | Berikan opsi undo/redo dan kemudahan keluar dari situasi tidak diinginkan. |
